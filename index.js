@@ -6,9 +6,9 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/',(peticion,respuesta) => {
 
-    respuesta.send('Hola Mundo, estamos en la calse 4');
+    respuesta.send('<h1 style="color:red;">Bienvenido a la aplicaion de ecommerce<h1>');
 
-    console.log('Macheaste al Home');
+    console.log('Cambiamos el texto a rojo y le agregamos h1');
 })
 
 app.listen(PORT, (err) => {
